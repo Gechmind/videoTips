@@ -1,0 +1,24 @@
+{
+	"manifest_version":2,
+	"name":"videoTips",
+	"description":"record the meaningful snap of video",
+	"icons":{
+		"128":"videoTip.png"
+	},
+	"permissions":[
+		"activeTab"
+	],
+	"web_accessible_resources":[
+	],
+	"browser_action":{
+		"default_icon":{
+			"128":"coplay.png"
+		}
+	},
+	"background":{
+		"scripts":[
+			"upload.js"
+		],
+		"persistent":false
+	}
+}
